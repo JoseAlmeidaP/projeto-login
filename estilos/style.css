@@ -2,8 +2,9 @@
 
 /*
     Paleta de cores
-    Verde: #49a09d
-    Lilás: #5f2c82
+    Verde: #36475F
+    Lilás: #820c2f
+   
 */
 
 *{
@@ -14,7 +15,7 @@
 }
 
 body, html {
-    background-color: #5f2c82;
+    background-color: #820c2f;
     height: 100vh;
     width: 100vw;
 }
@@ -37,11 +38,13 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+    transition: width .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
     display: block;
-    background: #5f2c82 url(../imagens/pexels-scott-webb-1029611.jpg) no-repeat;
+    background: #820c2f url(../imagens/pexels-scott-webb-1029611.jpg) no-repeat;
     height: 200px;
     background-size: cover;
     background-position: left bottom;
